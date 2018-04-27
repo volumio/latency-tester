@@ -1,0 +1,23 @@
+{
+  "name": "latency-tester",
+  "version": "1.0.0",
+  "description": "Basic latency tester for Volumio websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volumio/latency-tester.git"
+  },
+  "author": "Michelangelo Guarise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volumio/latency-tester/issues"
+  },
+  "homepage": "https://github.com/volumio/latency-tester#readme",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "socket.io-client": "^1.7.4"
+  }
+}
